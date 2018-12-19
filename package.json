@@ -1,0 +1,40 @@
+{
+    "name": "react-ts-template",
+    "version": "1.0.0",
+    "description": "",
+    "keywords": [],
+    "license": "MIT",
+    "author": "",
+    "main": "index.js",
+    "scripts": {
+        "build": "rm -rf ./build && webpack --config ./config/prod.config.js --progress",
+        "dev": "npm run dev:init && npm run dev:watch",
+        "dev:init": "webpack --config ./config/dev.config.js",
+        "dev:watch": "webpack-dev-server --hot --config ./config/dev.config.js"
+    },
+    "dependencies": {
+        "react": "16.2.0",
+        "react-dom": "16.2.1",
+        "react-router-dom": "4.2.2"
+    },
+    "devDependencies": {
+        "@babel/core": "^7.2.2",
+        "@babel/preset-env": "^7.2.0",
+        "@types/react-dom": "16.0.3",
+        "@types/react-router": "4.0.24",
+        "@types/react-router-dom": "4.2.3",
+        "awesome-typescript-loader": "^5.2.1",
+        "babel-loader": "^8.0.4",
+        "css-loader": "^2.0.1",
+        "file-loader": "^2.0.0",
+        "html-webpack-plugin": "^4.0.0-beta.5",
+        "less": "^3.9.0",
+        "less-loader": "^4.1.0",
+        "style-loader": "^0.23.1",
+        "tslint": "^5.12.0",
+        "typescript": "^3.2.2",
+        "webpack": "^4.27.1",
+        "webpack-cli": "^3.1.2",
+        "webpack-dev-server": "^3.1.11"
+    }
+}

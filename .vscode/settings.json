@@ -1,0 +1,7 @@
+{
+    "typescript.tsdk": "./node_modules/typescript/lib",
+    "editor.trimAutoWhitespace": true,
+    "editor.insertSpaces": true,
+    "editor.tabSize": 4,
+    "editor.foldingStrategy": "indentation"
+}
